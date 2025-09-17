@@ -120,7 +120,10 @@ Or generate a static HTML report (requires Allure CLI):
 ```
 allure generate target/allure-results -o target/allure-report --clean
 ```
-
+Or generate single file allure report that can be easily shared
+```
+allure generate --single-file target/allure-results -o target/allure-report-single --clean
+```
 ---
 
 ## **Test Scenarios**
