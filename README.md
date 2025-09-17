@@ -91,6 +91,9 @@ cd AutomationTestAssignmentUI
 mvn clean install
 ```
 
+
+* Note: running mvn clean install will also compile the code, run all tests, and install the package to your local Maven repository.
+
 3. **Run tests**
 
 * Run all tests with Maven:
